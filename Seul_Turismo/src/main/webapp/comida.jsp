@@ -21,8 +21,9 @@
 			<nav>
 				<a href="index.jsp">Principio</a> <a href="hospedaje.jsp">Hospedaje</a>
 				<a href="turismo.jsp">Atracciones Turisticas</a> <a
-					href="comida.jsp">Comida Tipica</a> <a href="mapaI.jsp">Mapa
-					Interactivo</a> <a href="comollegar.jsp">Como llegar</a> <a
+					href="comida.jsp">Comida Tipica</a> 
+					
+					<a href="comollegar.jsp">Mapa</a> <a
 					href="formulario.jsp">Formulario</a>
 			</nav>
 		</section>
@@ -122,13 +123,9 @@
 	<br>
 	<br>
 	<br>
-	<br>
-	<br>
 	<footer>
 		<h2 class="titulo_final">&copy; SEUL</h2>
 		<h2 class="titulo_final">&copy; Joel Corrales</h2>
-		<h2 class="titulo_final">&copy; EXAMEN</h2>
-		<h2 class="titulo_final">&copy; Programacion y Plataformas Web</h2>
 	</footer>
 </body>
 </html>

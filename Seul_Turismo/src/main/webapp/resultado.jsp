@@ -73,6 +73,8 @@
  	out.print(intento.ingresarPuntos( name, val1, val2, val3, val4, val5, valtotal));
  	Usuario usa = new Usuario();
  	out.print(usa.ingresarUsuario(name, calf,su));
+ 	response.sendRedirect("formulario.jsp");
  	%>
+ 	
 </body>
 </html>

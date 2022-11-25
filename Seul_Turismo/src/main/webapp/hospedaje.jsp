@@ -22,8 +22,8 @@
 			<nav>
 				<a href="index.jsp">Principio</a> <a href="hospedaje.jsp">Hospedaje</a>
 				<a href="turismo.jsp">Atracciones Turisticas</a> <a
-					href="comida.jsp">Comida Tipica</a> <a href="mapaI.jsp">Mapa
-					Interactivo</a> <a href="comollegar.jsp">Como llegar</a>
+					href="comida.jsp">Comida Tipica</a> 
+					 <a href="comollegar.jsp">Mapa</a>
 					<a href="formulario.jsp">Formulario</a>
 			</nav>
 		</section>
@@ -120,9 +120,9 @@
 				</tr>
 
 				<tr>
-					<td><b>CARACTERISTICAS</b></td>
-					<td><b>CARACTERISTICAS</b></td>
-					<td><b>CARACTERISTICAS</b></td>
+					<td bgcolor="#18ADAA"><b>CARACTERISTICAS</b></td>
+					<td bgcolor="#18ADAA"><b>CARACTERISTICAS</b></td>
+					<td bgcolor="#18ADAA"><b>CARACTERISTICAS</b></td>
 				</tr>
 				<tr>
 					<td>
@@ -160,9 +160,9 @@
 					</td>
 				</tr>
 				<tr>
-					<td><b>HOSPEDAJE</b></td>
-					<td><b>HOSPEDAJE</b></td>
-					<td><b>HOSPEDAJE</b></td>
+					<td bgcolor="#18ADAA"><b>HOSPEDAJE</b></td>
+					<td bgcolor="#18ADAA"><b>HOSPEDAJE</b></td>
+					<td bgcolor="#18ADAA"><b>HOSPEDAJE</b></td>
 				</tr>
 				<tr>
 					<td>$83 x Noche<br> <br></td>
@@ -174,9 +174,9 @@
 				</tr>
 
 				<tr>
-					<td><b>HORARIO DE ATENCION</b></td>
-					<td><b>HORARIO DE ATENCION</b></td>
-					<td><b>HORARIO DE ATENCION</b></td>
+					<td bgcolor="#18ADAA"><b>HORARIO DE ATENCION</b></td>
+					<td bgcolor="#18ADAA"><b>HORARIO DE ATENCION</b></td>
+					<td bgcolor="#18ADAA"><b>HORARIO DE ATENCION</b></td>
 				</tr>
 
 				<tr>
@@ -206,8 +206,6 @@
 	<footer>
 		<h2 class="titulo_final">&copy; SEUL</h2>
 		<h2 class="titulo_final">&copy; Joel Corrales</h2>
-		<h2 class="titulo_final">&copy; EXAMEN</h2>
-		<h2 class="titulo_final">&copy; Programacion y Plataformas Web</h2>
 	</footer>
 </body>
 </html>

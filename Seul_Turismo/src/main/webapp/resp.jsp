@@ -24,9 +24,10 @@
 	
 	<section>
                 <div class="textos">
-                
-                <h2>Puntuaciones del Formulario</h2>
-                
+                <br>
+                <br>
+                <br>
+                <h2>Calificacion de la Pagina y Sugerencias</h2>
                 <br>
                 <br>
                 <br>

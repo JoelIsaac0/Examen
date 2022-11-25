@@ -13,8 +13,8 @@
 			<nav>
 				<a href="index.jsp">Principio</a> <a href="hospedaje.jsp">Hospedaje</a>
 				<a href="turismo.jsp">Atracciones Turisticas</a> <a
-					href="comida.jsp">Comida Tipica</a> <a href="mapaI.jsp">Mapa
-					Interactivo</a> <a href="comollegar.jsp">Como llegar</a> <a
+					href="comida.jsp">Comida Tipica</a> 
+					<a href="comollegar.jsp">Mapa</a> <a
 					href="formulario.jsp">Formulario</a>
 			</nav>
 		</section>
@@ -34,7 +34,7 @@
 				<tr>
 					<td bgcolor="#384030" , style="border: solid 3px black;">Calificacion
 						de la pagina:</td>
-					<td bgcolor="#384030" , style="border: solid 3px black;" ><select
+					<td bgcolor="#384030" , style="border: solid 3px black;"><select
 						name="cmbQP" style="width: 120px">
 							<option value="1">1</option>
 							<option value="2">2</option>
@@ -43,7 +43,8 @@
 				<tr>
 					<td bgcolor="#384030" , style="border: solid 3px black;">Ayudanos
 						con tu sugerencia:</td>
-					<td bgcolor="#384030"><input type="text" name="txtSu" style="width: 300px; height: 200;"/></td>
+					<td bgcolor="#384030"><input type="text" name="txtSu"
+						style="width: 300px; height: 200;" /></td>
 				</tr>
 			</table>
 			<table class="textos">
@@ -57,9 +58,10 @@
 				</tr>
 				<tr>
 					<td bgcolor="#384030" , style="border: solid 3px black;">La
-						ciudad de la que se habla en esta plataforma pertenece al Pais Asiatico:</td>
+						ciudad de la que se habla en esta plataforma pertenece al Pais
+						Asiatico:</td>
 					<td bgcolor="#384030" , style="border: solid 3px black;"><input
-						type="text" name="txtQ2" maxlength="8" /></td>
+						type="text" name="txtQ2" maxlength="19" /></td>
 				</tr>
 
 				<tr>
@@ -108,5 +110,16 @@
 				<a href="calificaciones.jsp">Calificaciones</a>
 			</nav></td>
 	</section>
+	
+	<section>
+		<td><nav class="boton">
+				<a href="resp.jsp">Sugerencias</a>
+			</nav></td>
+	</section>
+	
+		<footer>
+		<h2 class="titulo_final">&copy; SEUL</h2>
+		<h2 class="titulo_final">&copy; Joel Corrales</h2>
+	</footer>
 </body>
 </html>
