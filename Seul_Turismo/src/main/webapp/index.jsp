@@ -27,7 +27,7 @@
 	<br>
 	<br>
 
-	<main>
+
 		<section class="textos">
 			<br>
 			<br>
@@ -102,79 +102,6 @@
 
 		</section>
 		<br> <br> <br> <br> <br>
-		<section>
-			<form action="#.jsp" method="post">
-
-				<table border="8">
-
-					<tr>
-						<td>Nombre</td>
-
-						<td><input type="text" name="txtNombre" pattern="{A-Z}"
-							required />*</td>
-					</tr>
-
-					<tr>
-						<td>Apellido</td>
-
-						<td><input type="text" name="txtNombre" pattern="{A-Z}"
-							required />*</td>
-					</tr>
-
-					<tr>
-						<td>Contrasena</td>
-
-						<td><input type="password" name="txtclave" required
-							minlength="5" />*</td>
-					</tr>
-
-					<tr>
-						<td>Telefono</td>
-
-						<td><input type="number" name="txtphone" required
-							minlength="5" />*</td>
-					</tr>
-
-					<tr>
-						<td>Correo electronico</td>
-						<td><input type="email" name="email" /></td>
-					</tr>
-
-					<tr>
-						<td>Pais</td>
-
-						<td><input type="text" name="txtPais" pattern="{A-Z}"
-							required />*</td>
-					</tr>
-
-					<tr>
-						<td>Fecha de Arribo</td>
-						<td><input type="date" name="fecha" /></td>
-					</tr>
-
-					<tr>
-						<td>Fecha de Salida</td>
-						<td><input type="date" name="fecha" /></td>
-					</tr>
-
-					<tr>
-						<td>Tipo de Habitacion</td>
-						<td><input type="radio" name="rdResidencia"
-							value="Habitacion Familiar" />Habitacion Familiar <br> <input
-							type="radio" name="rdResidencia" value="Habitacion Clasica" />Habitacion
-							Clasica <br> <input type="radio" name="rdResidencia"
-							value="Habitación doble clásica, vistas a la ciudad" />Habitación
-							doble clásica, vistas a la ciudad<br> <input type="radio"
-							name="rdResidencia" value="Habitación con 2 camas individuales" />Habitación
-							con 2 camas individuales</td>
-					</tr>
-
-				</table>
-				<input type="submit" value="enviar" /> <input type="reset"
-					value="borrar" />
-			</form>
-		</section>
-	</main>
 	<br>
 	<br>
 	<br>

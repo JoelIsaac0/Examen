@@ -1,6 +1,6 @@
 body{
 
-    background-image: url(../imagenes/port1.jpg);
+    background-image: url(../imagenes/foto.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -16,9 +16,32 @@ main{
 }
 
 .textos{
-    margin: 20px;
-    font-size: 60px;
+    margin: 40px;
+    font-size: 40px;
     color: white;
+    
+}
+.boton {
+	background-color: #1FFF41;
+	padding: 20px 7px;
+	border-radius:4px;
+	margin-bottom: 5px;
+	display:inline-block;
+}
+
+button{
+	padding:0;
+	margin: 0;
+	
+}
+.contener_tabla{
+    display: flex;
+    padding-top: 60px;
+    padding-right: 10px;
+    border-spacing: 30px;
+    font-weight: 600;
+    text-align: center;
+    
     
 }
 
@@ -101,13 +124,13 @@ header .textos{
 .textos h2{
     font-size: 50px;
     font-weight: 500;
-    color:#211B19;
+    color: white;
 }
 
 .textos h4{
-    font-size: 45px;
+    font-size: 70px;
     font-weight: 500;
-    color:#211B19;
+    color:#FFE01F;
     text-align: center;
 }
 .wave{
@@ -116,16 +139,7 @@ header .textos{
     width: 100%;
 }
 
-.contener_tabla{
-    display: flex;
-    padding-top: 60px;
-    padding-right: 10px;
-    border-spacing: 30px;
-    font-weight: 600;
-    text-align: center;
-    
-    
-}
+
 
 
 .contenidori{
@@ -200,10 +214,11 @@ ol li {
 
 .flex_videos{
 	
-	padding: 20px;
+	padding: 80px;
 	display:flex;
 	flex-direction: row;
 	width: 80%;
+	height: 80%;
 	margin: 0 auto;
 	flex-flow: row wrap;
 	align-items: center;	
@@ -219,13 +234,15 @@ justify-content: center;
 display: flex;
 }
 
+.card .contenido
+
 .caja_videos {
 	border: 1px solid black;
 	background-color : white;
 	color: black;
 	font-weight: bold;
-	width: 560px;
-	height: 315px;
+	width: 700px;
+	height: 700px;
 }
 
 footer{

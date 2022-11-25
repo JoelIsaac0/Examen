@@ -50,18 +50,36 @@
 
 				<tr>
 					<td>
-						<div class="slider"></div>
+						<div class="swiffy-slider">
+							<ul class="slider-container">
+								<li><img src="imagenes/1.jpg"
+									style="max-width: 100%; height: 300;"></li>
+								<li><img src="imagenes/11.jpg"
+									style="max-width: 100%; height: 300;"></li>
+								<li><img src="imagenes/111.jpg"
+									style="max-width: 100%; height: 300;"></li>
+							</ul>
+
+							<button type="button" class="slider-nav"></button>
+							<button type="button" class="slider-nav slider-nav-next"></button>
+
+							<div class="slider-indicators">
+								<button class="active"></button>
+								<button></button>
+								<button></button>
+							</div>
+						</div>
 					</td>
 					<td>
 
 						<div class="swiffy-slider">
 							<ul class="slider-container">
 								<li><img src="imagenes/2.jpg"
-									style="max-width: 100%;height: auto;"></li>
+									style="max-width: 100%; height: 300;"></li>
 								<li><img src="imagenes/22.jpg"
-									style="max-width: 100%;height: auto;"></li>
+									style="max-width: 100%; height: 300;"></li>
 								<li><img src="imagenes/222.jpg"
-									style="max-width: 100%;height: auto;"></li>
+									style="max-width: 100%; height: 300;"></li>
 							</ul>
 
 							<button type="button" class="slider-nav"></button>
@@ -76,15 +94,15 @@
 
 					</td>
 					<td>
-				
-				<div class="swiffy-slider">
+
+						<div class="swiffy-slider">
 							<ul class="slider-container">
 								<li><img src="imagenes/3.jpg"
-									style="max-width: 100%;height: auto;"></li>
+									style="max-width: 100%; height: 300;"></li>
 								<li><img src="imagenes/33.jpg"
-									style="max-width: 100%;height: auto;"></li>
+									style="max-width: 100%; height: 300;"></li>
 								<li><img src="imagenes/333.jpg"
-									style="max-width: 100%;height: auto;"></li>
+									style="max-width: 100%; height: 300;"></li>
 							</ul>
 
 							<button type="button" class="slider-nav"></button>
@@ -96,7 +114,7 @@
 								<button></button>
 							</div>
 						</div>
-						
+
 					</td>
 
 				</tr>
@@ -168,7 +186,20 @@
 					<td><br>Recepción 24 horas</td>
 				</tr>
 
-
+				<tr>
+					<td><nav class="boton">
+							<a
+								href=https://www.booking.com/Share-jRHyVb>REGISTRARSE</a>
+						</nav></td>
+					<td><nav class="boton">
+							<a
+								href=https://www.booking.com/Share-YFKwpD>REGISTRARSE</a>
+						</nav></td>
+					<td><nav class="boton">
+							<a
+								href=https://www.booking.com/Share-gztv4T>REGISTRARSE</a>
+						</nav></td>
+				</tr>
 			</table>
 		</div>
 	</section>

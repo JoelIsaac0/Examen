@@ -7,21 +7,21 @@ import com.info.datos.Conexion;
 public class Usuario {
 
 	private String nombre;
-	private String cedula;
 	private String calf;
+	private String comen;
 
 
-	public String ingresarUsuario(String nombre, String cedula,String calf)
+	public String ingresarUsuario(String nombre,String calf,String comen)
 	{
 		String result="";
 		Conexion con=new Conexion();
 		PreparedStatement pr=null;
-		String sql="INSERT INTO td_usuario(nombre,id,calf) VALUES(?,?,?)";
+		String sql="INSERT INTO tb_calf(nombreu,i_calf,sugerencia) VALUES(?,?,?)";
 		try{
 			pr=con.getConexion().prepareStatement(sql);
-			pr.setString(1,nombre);
-			pr.setString(2, cedula);
-			pr.setString(3, calf);
+			pr.setString(1, nombre);
+			pr.setString(2,calf);
+			pr.setString(3,comen);
 			if(pr.executeUpdate()==1)
 			{
 				result="Inserción correcta";
@@ -52,9 +52,9 @@ public class Usuario {
 	
 	public String consultarUsuarios()
 	{
-		String sql="SELECT * FROM td_usuario";
+		String sql="SELECT * FROM tb_calf";
 		Conexion con=new Conexion();
-		String tabla="<table border=2><th>Nombre</th><th>Cedula</th><th>Calf</th>";
+		String tabla="<table border=2><th>Nombre</th><th>Calf</th><th>Comentario</th>";
 		ResultSet rs=null;
 		rs=con.Consulta(sql);
 		try {
@@ -62,6 +62,7 @@ public class Usuario {
 			{
 				tabla+="<tr><td>"+rs.getString(1)+"</td>"
 						+ "<td>"+rs.getString(2)+"</td>"
+						+ "<td>"+rs.getString(3)+"</td>"
 						+ "</td></tr>";
 			}
 		} catch (SQLException e) {
@@ -82,13 +83,6 @@ public class Usuario {
 		this.nombre = nombre;
 	}
 
-	public String getCedula() {
-		return cedula;
-	}
-
-	public void setCedula(String cedula) {
-		this.cedula = cedula;
-	}
 
 	public String getCalf() {
 		return calf;
@@ -96,6 +90,14 @@ public class Usuario {
 
 	public void setCalf(String calf) {
 		this.calf = calf;
+	}
+
+	public String getComen() {
+		return comen;
+	}
+
+	public void setComen(String comen) {
+		this.comen = comen;
 	}
 
 }

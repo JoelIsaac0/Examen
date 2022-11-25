@@ -36,16 +36,23 @@
 	<br>
 	<br>
 	<section class="contenedori" style="text-align: center;">
-		<h1 class="titulo">Lugares que no puedes dejar de visitar</h1>
-		<div class="contenido-textos" style="text-align: justify;">
-			<br> <br>
+			<div class="textos">
+			<h4>Lugares Turisticos que no puedes dejar de visitar</h4>
+		</div>
+		<div class="textos" style="text-align: justify;">
+			<br>
 			<ol start="1">
 				<h1><li><b>Palacio Gyeongbokgung</b></li></h1>
 				<h2>construido en 1395 como principal palacio de la Dinastía
 					Joseon por el Rey Taejo, es el más impresionante de los 5 palacios
 					que existen de esa misma época. Alberga también el museo Folklórico
 					Nacional de Corea.</h2>
-				<img src="imagenes/pala.jpg" width="380" height="250">
+				<a href="https://www.civitatis.com/es/seul/visita-guiada-palacio-gyeongbokgung/">
+				
+				<button type="button">
+					<img src="imagenes/pala.jpg" width="700" height="500" alt="";>
+				</button>
+				</a>
 				<br>
 				<br>
 
@@ -57,8 +64,12 @@
 					de baño y divertimento. Acercarse a esta zona hará las delicias de
 					tus hijos, haciendo que se lo pasen en grande además en el
 					subterráneo de esta plaza se esconde un bonito espacio cultural.</h2>
-
-				<img src="imagenes/plaza.jpg" width="380" height="250">
+				<a href="https://www.minube.com/rincon/plaza-de-gwanghwamun-a3706451">
+				
+				<button type="button">
+					<img src="imagenes/plaza.jpg" width="700" height="500" alt="";>
+				</button>
+				</a>
 				<br>
 				<br>
 
@@ -67,7 +78,12 @@
 					Este mercado data de la Dinastía de Joseon y desde entonces se ha
 					convertido en el mercado más famoso de Corea. Es el centro de
 					ventas del país donde se puede encontrar cualquier cosa</h2>
-				<img src="imagenes/mercado.jpg" width="380" height="250">
+				<a href="https://mochilerosentailandia.com/2019/04/namdaemun-market/">
+				
+				<button type="button">
+					<img src="imagenes/mercado.jpg" width="700" height="500" alt="";>
+				</button>
+				</a>
 				<br>
 				<br>
 			</ol>
